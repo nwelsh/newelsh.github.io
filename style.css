@@ -1,0 +1,139 @@
+/*  the background color of the page OR use CSS to specify a full-page background image  */ 
+body{
+    background-color:whitesmoke;
+    font-family: "Courier New", Courier, monospace, serif;
+}
+
+h1{
+    text-align: center;
+    font-size: 50px;
+}
+h2{
+   
+    font-size: 25px;
+}
+h3{
+    border-style: double;
+    border-width: 5px;
+    font-size: 30px;
+    text-align: center;
+}
+h4{
+    text-align: left;
+    padding-left: 25px;
+    font-size: 25px;
+    
+}
+h5{
+   
+  font-size: 25px;
+  text-align: center;
+}
+
+h6{
+   
+  font-size: 18px;
+  text-align: center;
+}
+
+canvas {
+  padding-left: 0;
+  padding-right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  width: 800px;
+  border: 1px solid black;
+
+}
+svg {
+  border: 1px solid black;
+}
+input {
+  padding-left: 0;
+  padding-right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  width: 800px;
+}
+
+button {
+  padding-left: 0;
+  padding-right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  width: 800px;
+}
+
+/* change the font for at least one element to a serif font that is not the browser default, 
+with “serif” as a fallback */
+
+p{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    padding-top: 25px;
+    padding-right: 25px;
+    padding-bottom: 25px;
+    padding-left: 25px;
+}
+
+dl{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    padding-left: 25px;
+}
+
+/* add space (either margin or padding is fine) around the page content */
+/* change navigation section (using a <nav> element) on each page of your site containing 
+links to all other pages */
+
+
+ul {
+    list-style-type: none;
+    overflow: hidden;
+    background-color: lightpink;
+  }
+  
+  li a{
+    font-weight: bold;
+    text-decoration: none;
+    float: left;
+    color: white;
+    font-family: "Courier New", Courier, monospace, serif;
+    text-align: center;
+    padding: 14px 16px;
+  }
+  li a:hover
+  {
+    color: black;
+  }
+
+  nav {
+    float: left;
+    height: 70%;
+    width: 100%;
+    background: #A6B1BD;
+    font-size: 30px;
+  }
+
+  article {
+    float:inline-start;
+    background-color: #D8D9E6;
+  }
+
+  footer {
+    font-family: monospace;
+    background-color: #777;
+    text-align: center;
+    color: white;
+}
+
+.center {
+  display: block;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  
+}

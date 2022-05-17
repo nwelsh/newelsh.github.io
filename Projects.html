@@ -1,0 +1,63 @@
+<!-- HTML declaration and title element -->
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="icon" href="images\logot.png" type="image/icon type" alt="logo">
+    <link rel="stylesheet" type="text/css" href="style.css" media="screen"/>
+    
+    <title>Projects</title>
+</head>
+<!-- at least one page has a unique layout of content -->
+<body>
+    <ul>
+        <li><a href="index.html">About Me</a></li>
+        <li><a href="Projects.html">Projects</a></li>
+        <li><a href="Resume.html">Resume</a></li>
+        <li><a href="Contact.html">Contact</a></li>
+    </ul>
+    
+    <h1>Nicole Welsh's Projects</h1>
+
+    <section>
+        <nav>
+            <hr>
+            <h5> Graphics Projects </h5>
+            <hr>
+            <article>
+            </br>
+                <h5> Project 1: Quadcopter </h5>
+                <canvas id="canvas1" height="600px" width="600px"></canvas>
+                <script src="graphic1.js" type="module" defer></script>
+            </article>
+            <article>
+            </br>
+                <h5> Project 2: Boids </h5>
+                <h6> Play with the sliders and buttons to control the boids! </h6>
+                <canvas id="flock" height="600px" width="600px"></canvas>
+                <input type="range" width="100px" min="0" max="10" step=".2" value="3" id="speed" />
+                <input type="range" width="100px" min="0" max="3" step=".2" value="3" id="steer" />
+                <button id="add">Add 10</button><button id="clear">Clear</button>
+
+                <script src="graphic2.js" type="module" defer></script>
+            </article>
+            <article>
+            </br>
+                <h5> Project 3: Fireworks </h5>
+                <h6> Tap the canvas to create a firework! </h6>
+                <canvas id="box2canvas" height="600px" width="600px"></canvas>
+                
+                <script src="graphic3.js" type="module" defer></script>
+            </br>
+
+            </article>
+        </nav>
+
+        
+    </section>
+    <!-- heading level 2-->
+    
+
+    <!-- images 2+ -->
+
+</body>
+</html>
